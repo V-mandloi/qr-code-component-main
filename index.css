@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.full-screen{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    width: 18vw;
+    height: 60vh;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 14px;
+}
+
+.bar-image{
+    width: 18vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.bar-image img {
+    width: 18vw;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h4{
+    color: rgb(86, 86, 86);
+}
+
+.content h3{
+    font-weight: bold;
+}
